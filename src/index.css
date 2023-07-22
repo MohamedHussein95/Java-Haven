@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #6c3428;
+  --secondary-color: #ba704f;
+  --tertiary-color: #dfa878;
+  --grey-color: #cee6f3;
+  --white-color: #ffff;
+  --black-color: #000;
+  --inactive-color: #aaacb4;
+}

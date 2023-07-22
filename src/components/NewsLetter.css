@@ -1,0 +1,65 @@
+.news-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+.news-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #dacabd;
+  align-items: center;
+  width: 60vw;
+  border-radius: 10px;
+  padding: 40px;
+  gap: 15px;
+}
+.news-title {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  color: var(--white-color);
+}
+.news-content {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+}
+.email-bar {
+  background-color: var(--white-color);
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 0 10px;
+}
+.email-bar-con {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  border-radius: 5px;
+  gap: 25px;
+}
+.subscribe-btn {
+  background-color: var(--primary-color);
+  height: 60px;
+  width: 10vw;
+  border-radius: 5px;
+  color: var(--white-color);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+.email-bar input {
+  width: 100%;
+  height: px;
+  padding: 20px;
+  border-width: 0;
+}

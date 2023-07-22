@@ -1,0 +1,34 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+  padding: 15px;
+}
+.offer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  gap: 25px;
+}
+.offer {
+  font-size: 14px;
+  color: var(--white-color);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.button {
+  background-color: #7a522f;
+  border-width: 0;
+  color: var(--white-color);
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  opacity: 0.8;
+  width: 100px;
+}
+.button:hover {
+  opacity: 1;
+}
