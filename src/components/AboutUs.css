@@ -3,7 +3,16 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 150px;
+  opacity: 0;
+  transform: translateY(100px);
 }
+
+.about.animate {
+  opacity: 1;
+  transform: translateY(0);
+  animation: slideFromBottom 1s ease forwards;
+}
+
 .aboutTitle {
   color: var(--primary-color);
   font-size: 40px;
@@ -12,14 +21,15 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-weight: bold;
 }
+
 .aboutBody {
   color: var(--black-color);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 16px;
-
   font-weight: 300;
 }
+
 .aboutContentContainer {
   display: flex;
   flex-direction: column;
@@ -27,12 +37,25 @@
   align-items: flex-start;
   width: 50vw;
 }
+
 .aboutImageContainer {
 }
+
 .aboutImage {
   width: 500px;
   border-radius: 15px;
   box-shadow: 1px 1px 10px 1px;
   border-width: 0;
   aspect-ratio: 1;
+}
+
+@keyframes slideFromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

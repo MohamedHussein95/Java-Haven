@@ -8,11 +8,11 @@ function Header() {
         <div className="navbar">
           <img src="/java_logo.png" alt="logo" className="logo" />
           <nav>
-            <Link to={"/"}>Home</Link>
-            <Link to={"/coffee"}>Coffee</Link>
-            <Link to={"/merchandize"}>Merchandise</Link>
-            <Link to={"/menu"}>Menu</Link>
-            <Link to={"/contact"}>Contact</Link>
+            <Link to={"/"}>HOME</Link>
+            <Link to={"/coffee"}>SHOP</Link>
+            <Link to={"/menu"}>MENU</Link>
+            <Link to={"/contact"}>NEWS</Link>
+            <Link to={"/contact"}>CONTACT US</Link>
           </nav>
         </div>
         <div className="searchContainer">
@@ -27,20 +27,6 @@ function Header() {
             <FaCartPlus size={20} />
           </button>
         </div>
-      </div>
-      <div className="hero">
-        <h1 className="heroTitle">
-          Fresh & happy <br /> One bean at a time
-        </h1>
-        {/**<h3 className="hero-body">
-        Welcome to Java Haven, where we believe in bringing you the freshest and
-        happiest coffee experience, one bean at a time. Our handpicked coffee
-        beans from around the world are carefully roasted to perfection,
-        ensuring a delightful cup in every sip. Come and join us on this journey
-        of discovering the perfect cup of coffee that brings joy and warmth to
-        your day.
-      </h3> */}
-        <button className="order-btn">Order Now</button>
       </div>
     </div>
   );

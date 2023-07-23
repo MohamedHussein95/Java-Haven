@@ -2,12 +2,14 @@ import AboutUs from "../components/AboutUs";
 import Banner from "../components/Banner";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Hero from "../components/Hero";
 import NewsLetter from "../components/NewsLetter";
 import Recommended from "../components/Recommended";
 
 function HomeScreen() {
   return (
     <>
+      <Hero />
       <AboutUs
         title="About Us !"
         body="At Java Haven, we are dedicated to providing our customers with the
